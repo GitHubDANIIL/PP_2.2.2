@@ -12,15 +12,6 @@ public class Car {
         this.year = year;
     }
 
-    @Override
-    public String toString() {
-        return "Car{" +
-                "brand='" + brand + '\'' +
-                ", color='" + color + '\'' +
-                ", year=" + year +
-                '}';
-    }
-
     public String getBrand() {
         return brand;
     }
@@ -43,5 +34,14 @@ public class Car {
 
     public void setYear(int year) {
         this.year = year;
+    }
+
+    @Override
+    public String toString() {
+        return "Car{" +
+                "brand='" + brand + '\'' +
+                ", color='" + color + '\'' +
+                ", year=" + year +
+                '}';
     }
 }
